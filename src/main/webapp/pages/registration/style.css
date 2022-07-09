@@ -1,0 +1,230 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Robotobold.ttf");
+    font-weight: bold;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.title{
+    margin: 10px 250px 0px 0px;
+}
+nav ul{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.menu-item:hover {
+    border-bottom: 1px solid white;
+    color: white;
+}
+nav li{
+    margin: 15px 100px 0px 0px;
+}
+header{
+    /*position: fixed;*/
+    /*width: 100%;*/
+    /*margin-top: -80px;*/
+    background-color: black;
+    color: white;
+    padding: 15px 0px;
+    border-bottom: 2px solid black;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+}
+.main-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 70px 0px;
+}
+.main-text{
+    font-size: 20px;
+    width: 50%;
+    text-align: left;
+}
+.main-back{
+    background-image: url("<%=request.getContextPath()%>/image_css/reg/fallback.png");
+    background-position: center;
+    background-size: cover;
+    padding: 154px 0px 184px 0px;
+    /*margin: 50px;*/
+}
+
+.reg-title{
+    margin-top: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.reg-img-user{
+    width: 20%;
+}
+.reg-img-user img {
+    display: flex;
+    margin: 20px 40px;
+    width: 200px;
+    vertical-align: bottom;
+    transition: all .4s;
+}
+
+.reg-img-user>input {
+    display: none;
+}
+
+.reg-img-user:hover img {
+    transform: scale(1.1);
+}
+
+.reg-radio{
+    float: right;
+    margin-right: 45%;
+    margin-top: 2%;
+}
+
+.radio_button{
+    display: inline-block;
+    /*margin-right: 10px;*/
+}
+
+.radio_button input[type=radio] {
+    display: none;
+}
+
+.radio_button label {
+    width: 150px;
+    padding: 12px 0px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    /*padding: 0px 15px;*/
+    line-height: 34px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    user-select: none;
+}
+
+.radio_button input[type=radio]:checked + label {
+    background: black;
+    color: white;
+}
+
+/* Hover */
+.radio_button label:hover {
+    color: #666;
+}
+
+.radio_button input[type=radio]:disabled + label {
+    background: #efefef;
+    color: #666;
+}
+
+.form-input{
+
+}
+
+.form-input input{
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    /*display: flex;*/
+    margin: 0px 18% 10px 20px ;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+}
+
+.form-input input::placeholder{
+    color:white;
+}
+
+.reg-image{
+    position: absolute;
+    left: 65%;
+}
+.button input{
+    background:black;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 10px;
+    width: 644px;
+    margin-left: 20px;
+}
+
+.button input:hover{
+    background:white;
+    color: black;
+}
+
+.info-row{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.info-column{
+    width: 300px;
+}
+
+.info-row h3{
+    padding-top: 10px;
+}
+
+.info-text{
+    margin-top: -20px;
+}
+.info-text-2{
+    margin-top: 25px;
+}
+ul{
+    list-style: none;
+}
+
+.info-image-second{
+    margin-left: 40px;
+    width:500px;
+    height: auto;
+}
+
+.tr-image{
+    display: flex;
+    padding-top: 100px;
+}
+
+.info ul{
+    padding: 30px 100px;
+}
+
+.info li{
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    padding: 30px 0px;
+    border-top:solid 2px;
+}
+

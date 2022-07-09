@@ -1,0 +1,70 @@
+.autorization {
+    background: rgb(252, 164, 33);
+    opacity: 0.7;
+    border: solid rgb(252, 164, 33);
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 10%;
+    width: 30%;
+    height: 50%;
+    top: 20%;
+}
+
+span {
+    text-align: center;
+}
+
+h3 {
+    padding-top: 12%;
+}
+
+input.text {
+    margin-top: 10%;
+    margin-left: 0%;
+    border-radius: 5px;
+    width: 60%;
+}
+
+input.button {
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    display: block;
+    margin: 0% auto;
+    margin-top: 5%;
+}
+
+a {
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    object-fit: cover;
+    margin-bottom: 0%;
+    width: 100%;
+    max-height: 700px;
+    overflow: hidden;
+}
+
+.info {
+    background-color: rgb(252, 164, 33);
+    margin-top: 2%;
+}
+
+html {
+    background-color: rgb(252, 164, 33);
+}
+label.error{
+    display: flex;
+    padding-left: 25%;
+    margin-top: -15px;
+
+}
