@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Robotobold.ttf");
+    font-weight: bold;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.title{
+    margin: 10px 250px 0px 0px;
+}
+nav ul{
+    list-style:none;
+    display: flex;
+    flex-direction: row;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.menu-item:hover {
+    border-bottom: 1px solid white;
+    color: white;
+}
+.menu-item-photo{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.menu-item-button{
+    margin-top: -8px;
+    background: black;
+    width: 20px;
+    height: 20px;
+}
+.menu-item-photo{
+    margin-right: 10px  ;
+    margin-top: -8px;
+    /*border-style: solid;*/
+    /*border-width: 2px;*/
+    border-radius: 10px;
+    image-rendering: optimizeQuality;
+}
+.menu-item-name{
+    padding: 0px 10px;
+}
+.menu-item-user{
+    border: none;
+    padding: 0px 10px;
+    background-color: black;
+}
+.menu-info-user{
+    margin-left: 80px;
+    display: flex;
+}
+nav li{
+    margin: 15px 50px 0px 0px;
+}
+header{
+    /*position: fixed;*/
+    /*width: 100%;*/
+    /*margin-top: -80px;*/
+    background-color: black;
+    color: white;
+    padding: 15px 0px;
+    border-bottom: 2px solid black;
+}
+header .container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+/*info user*/
+.info-user{
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    margin-top: 80px;
+    margin-left: 300px;
+    border-color: #999999;
+    width: 900px;
+    height: 500px;
+}
+
+.info-user-photo img{
+    border-radius: 10px;
+    margin-top: 75px;
+    margin-left: 50px;
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+.data-user{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 95px;
+    float: right;
+    width: 300px;
+    margin-right: 100px;
+}
+.data-user p{
+    margin-left: 60px;
+}
+.info-exit button{
+    float: right;
+    background-color: white;
+    border: none;
+}
+.info-exit img{
+    margin:20px 20px;
+    width: 20px;
+    height: 20px;
+}
+.info-user{
+    display: none;
+}
